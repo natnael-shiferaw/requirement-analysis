@@ -67,3 +67,39 @@ Requirement Analysis involves several crucial activities that ensure the project
   - Define acceptance criteria for each requirement to guarantee alignment with project goals.  
   - Establish traceability matrices to ensure all requirements are addressed during development and testing.  
 
+## Types of Requirements  
+
+In software development, requirements can be broadly categorized into two types: Functional and Non-functional. Both are crucial for the system's success.  
+
+### Functional Requirements  
+
+Functional Requirements describe what the system should do. They define specific behaviors, features, or functions of the system.  
+
+**Examples for the Booking Management System:**  
+- **Search Properties:**  
+  - Users should be able to search for properties based on criteria such as location, price, and availability.  
+- **User Registration and Authentication:**  
+  - New users should be able to create accounts, while existing users can log in securely.  
+- **Property Listings:**  
+  - The system should display properties with details such as price, location, and amenities, along with images.  
+- **Booking System:**  
+  - Users should be able to book properties, view booking details, and manage their bookings.  
+- **Payment Processing:**  
+  - The system should support secure online payment methods.  
+
+### Non-functional Requirements  
+
+Non-functional Requirements describe how the system should perform and outline system attributes such as usability, reliability, performance, and scalability.  
+
+**Examples for the Booking Management System:**  
+- **Performance:**  
+  - The system should load pages within 2 seconds, even during peak traffic.  
+- **Security:**  
+  - Ensure user data is encrypted and protected against common vulnerabilities such as SQL injection and cross-site scripting.  
+- **Scalability:**  
+  - The system should handle up to 1000 concurrent users and allow for future expansion.  
+- **Usability:**  
+  - The interface should be intuitive, enabling users to complete booking tasks within three clicks.  
+- **Reliability:**  
+  - Maintain an uptime of 99.9% with quick recovery from failures.  
+
