@@ -38,3 +38,32 @@ Requirement Analysis plays a pivotal role in ensuring the success of software de
    - It provides a foundation for designing and building systems that meet user needs effectively.  
    - Validated requirements help ensure that the final product satisfies customer expectations and performs as intended.  
 
+## Key Activities in Requirement Analysis  
+
+Requirement Analysis involves several crucial activities that ensure the project's success by defining and validating its objectives. Here are the five key activities:  
+
+- **Requirement Gathering:**  
+  - Conduct interviews with stakeholders to understand their needs and expectations.  
+  - Use surveys, questionnaires, and workshops to gather detailed requirements.  
+  - Observe end-users in their work environments to gain insights into their challenges and workflows.  
+
+- **Requirement Elicitation:**  
+  - Facilitate brainstorming sessions to generate ideas and refine requirements.  
+  - Organize focus groups with selected stakeholders to gather in-depth feedback.  
+  - Create prototypes to help stakeholders visualize the system and refine their expectations.  
+
+- **Requirement Documentation:**  
+  - Develop a Requirement Specification Document to detail all functional and non-functional requirements.  
+  - Write user stories to describe functionalities from the user’s perspective.  
+  - Create use case diagrams to visually represent interactions between users and the system.  
+
+- **Requirement Analysis and Modeling:**  
+  - Prioritize requirements based on importance and feasibility.  
+  - Conduct feasibility analyses to assess technical, financial, and time constraints.  
+  - Develop models such as data flow diagrams (DFDs) or entity-relationship diagrams (ERDs) to visualize and analyze requirements.  
+
+- **Requirement Validation:**  
+  - Review the documented requirements with stakeholders to ensure accuracy and completeness.  
+  - Define acceptance criteria for each requirement to guarantee alignment with project goals.  
+  - Establish traceability matrices to ensure all requirements are addressed during development and testing.  
+
