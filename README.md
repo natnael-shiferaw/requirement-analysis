@@ -132,3 +132,58 @@ Below is a use case diagram illustrating the interactions in the booking managem
 - Manage Bookings  
 - Manage Listings  
 - User Authentication  
+
+## Acceptance Criteria
+
+### What are Acceptance Criteria?
+
+Acceptance Criteria (AC) are a set of conditions that a product or feature must meet in order to be considered complete and acceptable to the stakeholders, such as customers, users, and product owners. They define the boundaries of a feature or user story and ensure that the development team and stakeholders have a shared understanding of what is expected. The criteria are usually written from the user's perspective, detailing the expected behavior and outcomes of the feature.
+
+### Importance of Acceptance Criteria in Requirement Analysis
+
+- **Clarity of Expectations**:  
+  Acceptance Criteria ensure that both stakeholders and developers have a clear understanding of the requirements and expectations of a feature. This reduces ambiguity and potential misunderstandings during development.
+
+- **Validation of Requirements**:  
+  Acceptance Criteria help in validating that the developed feature meets the specified requirements. They provide a clear, objective way to verify that the system functions as expected.
+
+- **Basis for Testing**:  
+  Acceptance Criteria are used to create test cases for quality assurance (QA). By outlining the expected outcomes, they help ensure that features are thoroughly tested and meet user needs.
+
+- **Avoiding Scope Creep**:  
+  By clearly defining what is included and excluded in a feature, Acceptance Criteria help prevent scope creep by keeping the development team focused on what was originally agreed upon.
+
+- **Communication Tool**:  
+  AC serves as a communication tool between stakeholders, product owners, and developers, ensuring alignment throughout the project’s life cycle.
+
+### Example of Acceptance Criteria for the Checkout Feature in the Booking System
+
+Let's consider the **Checkout Feature** of the Booking Management System as an example to define acceptance criteria. The checkout feature typically involves the final step where users confirm their booking, provide payment information, and complete their transaction.
+
+#### Example Acceptance Criteria for Checkout Feature:
+
+- **Valid Payment Information**:  
+  Given that the user has added a property to the cart, when they proceed to checkout, they must be required to enter valid payment information (e.g., credit card number, expiration date, CVV).  
+  The system should validate the payment details and display an error if the payment information is invalid.
+
+- **Booking Confirmation**:  
+  Once the user enters valid payment information, the system should successfully process the payment and display a confirmation message with booking details (e.g., property name, booking dates, total amount).  
+  An email confirmation should be sent to the user with the booking details.
+
+- **Payment Failure Handling**:  
+  If the payment is declined, the system should display an appropriate error message (e.g., "Payment declined, please check your payment method.") and prompt the user to re-enter their payment details.
+
+- **Booking Date Validation**:  
+  The system should ensure that the selected booking dates are available before allowing the user to proceed to checkout. If the dates are unavailable, the user should be notified immediately.
+
+- **Successful Payment Redirect**:  
+  After successful payment, the user should be redirected to a "Thank You" page with a summary of their booking, including payment confirmation and a link to their booking history.
+
+- **Price Breakdown**:  
+  The checkout page should display a clear breakdown of the total cost, including base price, taxes, and any additional fees (e.g., cleaning fee, service charge), so the user can verify before completing the booking.
+
+- **Secure Payment Processing**:  
+  The system must use secure payment gateways (e.g., SSL encryption) to process the payment and protect sensitive user data during the transaction.
+
+- **Mobile Compatibility**:  
+  The checkout page should be fully responsive and provide an easy-to-navigate experience on both desktop and mobile devices.
